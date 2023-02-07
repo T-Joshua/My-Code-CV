@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.images {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile {
+  width: 68%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 75%;
+}
+
+#gmail {
+  margin-bottom: 10px;
+}
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main h4 {
+  width: 30%;
+}
+
+.main p {
+  width: 68%;
+}
+
+.experience {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyname {
+  width: 68%;
+}
+
+.companyname p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.companyname h5 {
+  align-items: center;
+}
+
+.education {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.master {
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill h4 {
+  width: 30%;
+}
+
+.input {
+  width: 68%;
+}
+
+.input1 {
+  display: flex;
+  justify-content: space-between;
+}
